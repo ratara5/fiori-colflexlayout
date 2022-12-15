@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<style>
+		html, body, body > div, #container, #container-uiarea {
+			height: 100%;
+		}
+	</style>
+	<script
+			id="sap-ui-bootstrap"
+			src="https://sdk.openui5.org/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-resourceroots='{
+            "sap.ui.demo.fiori2": "./",
+			"sap.ui.demo.mock":"https://sdk.openui5.org/test-resources/sap/ui/documentation/sdk/"
+        }'
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-async="true"
+			data-sap-ui-preload="async"
+			data-sap-ui-libs="sap.m">
+	</script>
+	<script id="locate-reuse-libs" src="./utils/locate-reuse-libs.js"
+			data-sap-ui-manifest-uri="./manifest.json"
+			data-sap-ui-componentName="sap.ui.demo.fiori2">
+	</script>
+</head>
+<body class="sapUiBody sapUiSizeCompact" id="content">
+<div data-sap-ui-component data-name="sap.ui.demo.fiori2" data-id="container" data-settings='{"id" : "sap.ui.demo.fiori2"}' data-handle-validation="true"></div>
+</body>
+</html>
