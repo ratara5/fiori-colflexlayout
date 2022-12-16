@@ -47,7 +47,7 @@ sap.ui.define([
             var productPath=oEvent.getSource().getBindingContext("products").getPath(),
                 product=productPath.split("/").slice(-1).pop();
                 
-                this.oRouter.navTo("detail", {layout:fioriLibrary.LayoutType.TwoColumnsMidExpanded, product:product})
+                this.oRouter.navTo("detail", {layout:fioriLibrary.LayoutType.TwoColumnsMidExpanded, product:product});
 
         }
     });
